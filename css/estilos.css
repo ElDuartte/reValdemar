@@ -1,0 +1,91 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: gray;
+}
+
+h1 strong {
+  color: white;
+}
+
+.header {
+  height: 250px;
+  background-color: #25201f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-image {
+  object-fit: cover;
+}
+
+.hero {
+  font-size: 20px;
+}
+
+.hero h1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 50px;
+}
+
+.hero p {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #efefef;
+}
+
+.services {
+}
+
+.services h1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 50px;
+}
+
+/* .copyright {
+  background-color: #25201f;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: right;
+}
+
+.copyright ul {
+  display: flex;
+  height: inherit;
+}
+
+.copyright li {
+  height: inherit;
+} */
+
+.container {
+  /*border: 1px solid red;*/
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
