@@ -1,2 +1,2 @@
-re diseño de la pagina www.mrvaldemar.com
+Rediseño de la pagina www.mrvaldemar.com
 primera practica
