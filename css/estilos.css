@@ -1,3 +1,6 @@
+figure {
+  margin: 0;
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
@@ -15,7 +18,6 @@ h6 {
 
 h1 {
   font-size: 28px;
-  line-height: 1.5;
   letter-spacing: -0.5px;
   text-align: left;
   color: gray;
@@ -51,12 +53,55 @@ h1 strong {
   border-bottom: 2px solid #efefef;
 }
 
-.services {
+.service-type {
+  align-items: center;
 }
 
-.services h1 {
+.service-type h1 {
   color: rgba(0, 0, 0, 0.7);
   font-size: 50px;
+  border-bottom: 0;
+  margin-block-end: 0;
+}
+
+.services-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.services {
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+}
+
+.services img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.services-title {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 30px;
+}
+
+.services-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.services-description {
+  text-align: left;
 }
 
 /* .copyright {
