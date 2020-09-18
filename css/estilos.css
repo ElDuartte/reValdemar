@@ -32,7 +32,7 @@ h1 strong {
   background-color: #25201f;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .header-image {
@@ -104,6 +104,10 @@ h1 strong {
   text-align: left;
 }
 
+.top-border-metodologi {
+  padding-top: 15px;
+  border-top: 2px solid #efefef;
+}
 /* .copyright {
   background-color: #25201f;
   color: white;
