@@ -1,2 +1,2 @@
 Rediseño de la pagina www.mrvaldemar.com
-primera practica
+curso basico de html + css
