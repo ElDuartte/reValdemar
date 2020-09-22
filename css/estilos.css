@@ -156,12 +156,19 @@ a {
   margin-right: 10px;
 }
 
-.mesage {
-  margin-top: 10px;
+.text-zone {
+  margin-top: 15px;
   margin-bottom: 20px;
+  border: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
   display: flex;
+  text-align: left;
+  font-size: 20px;
   align-items: flex-end;
-  width: 550px;
+  resize: none;
+  width: 590px;
   height: 200px;
 }
 .form-email input {
