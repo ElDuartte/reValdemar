@@ -1,0 +1,45 @@
+/* Pantallas de menos de 835 */
+h2 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+.slogan {
+  font-size: 22px;
+}
+
+.header {
+  height: 200px;
+}
+
+.logo-header {
+  width: 150px;
+  height: 150px;
+}
+
+.services {
+  width: auto;
+  flex-shrink: initial;
+}
+
+.service.imageContainer {
+  width: auto;
+  text-align: auto;
+}
+
+.services-detail {
+  width: auto;
+}
+
+.services-title {
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+.services-description {
+  font-size: 1em;
+}
+.services img {
+  width: 100%;
+}
+.hero p {
+  margin-bottom: 0;
+}

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mr.Valdemar</title>
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link
@@ -10,24 +10,51 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/estilos.css" />
+    <link
+    rel="stylesheet"
+    href="css/responsive/desktop.css"
+    media="screen and (max-width: 1023px)"
+    />
+    <link
+    rel="stylesheet"
+    href="css/responsive/desktopSmall.css"
+    media="screen and (max-width: 835px)"
+    />
+    <link
+    rel="stylesheet"
+    href="css/responsive/tablets.css"
+    media="screen and (max-width: 600px)"
+    />
+    <link
+    rel="stylesheet"
+    href="css/responsive/phablets.css"
+    media="screen and (max-width: 420px)"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="css/responsive/mobileS.css"
+      media="screen and (max-width: 320px)"
+    />
   </head>
 
   <body>
     <header class="header">
       <div class="container">
-        <h1>
+        <a class="link" href="#contact">
+          <img
+            class="logo-header"
+            src="images/logo.png"
+            alt="Logo de https://mrvaldemar.com"
+            height="200px"
+            width="200px"
+          />
+        </a>
+        <h1 class="slogan">
           Somos una empresa de software con <br />
           <strong>más de veinte años de experiencia</strong>
           en la web.
         </h1>
-        <a class="link" href="#contact">
-          <img
-            src="images/logo.png"
-            width="200px"
-            height="200px"
-            alt="Logo de https://mrvaldemar.com"
-          />
-        </a>
       </div>
     </header>
     <section class="hero">
@@ -47,13 +74,13 @@
       </div>
     </section>
     <section id="service-type" class="service-type">
-    <div class="container">
-      <h1>Servicios</h1>
-      <em>
-        La función de un buen software es hacer que lo complejo parezca
-        simple.
-      </em>
-    </div>
+      <div class="container">
+        <h1>Servicios</h1>
+        <em>
+          La función de un buen software es hacer que lo complejo parezca
+          simple.
+        </em>
+      </div>
     </section>
     <section id="services-list" class="services-list">
     <div class="container">
@@ -121,20 +148,20 @@
       </div>
     </section>
     <section id="services-list" class="services-list">
-    <div class="container">
-      <article class="services">
-        <figure class="services-imageContainer">
-          <img class="services-image" src="images/M-01.jpg" width="500" />
-        </figure>
-        <div class="services-detail">
-          <h2 class="services-title">Desarrollo ágil</h2>
-          <p class="services-description">
-            El desarrollo ágil se refiere a las metodologías de desarrollo de software centradas en la idea del
-            desarrollo iterativo e incremental, donde los requisitos y las soluciones evolucionan a través de la
-            colaboración entre equipos auto organizados y multifuncionales. La mayor ventaja de este tipo de desarrollo
-            es que permite entregar funcionalidades más rápido, con mayor calidad y previsibilidad.
-          </p>
-      </article>
+      <div class="container">
+        <article class="services">
+          <figure class="services-imageContainer">
+            <img class="services-image" src="images/M-01.jpg" width="500" />
+          </figure>
+          <div class="services-detail">
+            <h2 class="services-title">Desarrollo ágil</h2>
+            <p class="services-description">
+              El desarrollo ágil se refiere a las metodologías de desarrollo de software centradas en la idea del
+              desarrollo iterativo e incremental, donde los requisitos y las soluciones evolucionan a través de la
+              colaboración entre equipos auto organizados y multifuncionales. La mayor ventaja de este tipo de desarrollo
+              es que permite entregar funcionalidades más rápido, con mayor calidad y previsibilidad.
+            </p>
+        </article>
       <article class="services">
         <figure class="services-imageContainer">
           <img class="services-image" src="images/M-02.png" width="500" />
@@ -211,7 +238,7 @@
     <section id="clients-list" class="clients-list">
       <div class="container">
         <br /><br /><br />
-        <h1 class="top-border-clients">Clientes</h1>
+        <h1 class="top-border-clients">Clientes</h1><br/>
         <button class="accordion">Nacional</button>
         <div class="panel">
           <a href="https://www.alpina.com/" target="_balnk">
@@ -296,46 +323,44 @@
         </div>
       </div>
     </section>
-    <script type="text/javascript" src="script-accordion.js"></script>
     <section id="contact" class="contact">
-    <section class="container">
-      <div class="contact-title">
-        <h1 class="top-border-contact">Contacto</h1>
-      </div>
-      <form action="/suscripcion/" class="form-email">
-        <div class="contact-info">
-          <input type="text" placeholder="Nombre" id="nombre" class="nombre">
-          <input type="text" placeholder="Correo" id="correo" class="correo-contacto">
-          <!--<input type="text" placeholder="Mensaje" id="mesage" class="mesage">-->
-          
-          <textarea class="text-zone" placeholder="Mensaje" cols="82" rows="10"></textarea>
-          <button>Enviar</button>
+      <section class="container">
+        <div class="contact-title">
+          <h1 class="top-border-contact">Contacto</h1>
         </div>
-        <div class="contact-info">
-          <ol class="order-list">
-            <li class="location">
-              <img src="images/logo-contacto/home.png" alt="locacion" height="50px" width="50px">
-              <p class="ubicacion">Carrera 49A # 87 - 05 <br />
-                Bogotá, 111211 <br />
-                Colombia</p>
-            </li>
-            <li class="phone">
-              <img src="images/logo-contacto/phone.png" alt="phone" height="50px" width="50px">
-              <p class="telefono">+57 (571) 3519775</p>
-            </li>
-            <li class="mail">
-              <img src="images/logo-contacto/mail.png" alt="mail" height="50px" width="50px">
-              <p class="correo-empresa">hola@mrvaldemar.com</p>
-            </li>
-          </ol>
-        </div>
-      </form>
-    </section>
+        <!--<form action="/suscripcion/" class="form-email">
+          <div class="contact-info">
+            <input type="text" placeholder="Nombre" id="nombre" class="nombre">
+            <input type="text" placeholder="Correo" id="correo" class="correo-contacto">
+            <textarea class="text-zone" placeholder="Mensaje" cols="82" rows="10"></textarea>
+            <button>Enviar</button>
+          </div>-->
+          <div class="contact-info">
+            <ol class="order-list">
+              <li class="location">
+                <img src="images/logo-contacto/home.png" alt="locacion" height="50px" width="50px">
+                <p class="ubicacion">Carrera 49A # 87 - 05 <br />
+                  Bogotá, 111211 <br />
+                  Colombia</p>
+              </li>
+              <li class="phone">
+                <img src="images/logo-contacto/phone.png" alt="phone" height="50px" width="50px">
+                <p class="telefono">+57 (571) 3519775</p>
+              </li>
+              <li class="mail">
+                <img src="images/logo-contacto/mail.png" alt="mail" height="50px" width="50px">
+                <p class="correo-empresa">hola@mrvaldemar.com</p>
+              </li>
+            </ol>
+          </div>
+        </form>
+      </section>
     </section>
     <footer class="footer">
       <div class="container">
         <p>&copy; Mr. Valdemar</p>
       </div>
     </footer>
+    <script type="text/javascript" src="js/script-accordion.js"></script>
   </body>
 </html>

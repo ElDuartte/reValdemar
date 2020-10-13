@@ -1,0 +1,23 @@
+/* pantallas de menos de 1023px */
+
+.services-title {
+  margin-left: 0;
+}
+
+.container {
+  padding: 0 1em;
+}
+
+.hero {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2em;
+  z-index: 2;
+}
+.hero p {
+  margin-bottom: 0;
+}

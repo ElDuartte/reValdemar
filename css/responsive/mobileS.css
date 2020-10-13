@@ -1,0 +1,9 @@
+/* pantallas de menos de 320px */
+
+p {
+  font-size: 0.8em;
+}
+
+.services-detail {
+  margin: 0 0;
+}
